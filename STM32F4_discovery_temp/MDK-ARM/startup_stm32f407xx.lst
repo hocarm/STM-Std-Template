@@ -868,13 +868,10 @@ ARM Macro Assembler    Page 14
   438 0000001C                 END
               00000000 
               00000000 
-Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
-erwork --depend=f4_discovery_temp\startup_stm32f407xx.d -of4_discovery_temp\sta
-rtup_stm32f407xx.o -IC:\STM32\F4_discovery_temp\MDK-ARM\RTE -IC:\Keil_v5\ARM\PA
-CK\ARM\CMSIS\4.5.0\CMSIS\Include -IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.8.0
-\Drivers\CMSIS\Device\ST\STM32F4xx\Include --predefine="__MICROLIB SETA 1" --pr
-edefine="__UVISION_VERSION SETA 520" --predefine="_RTE_ SETA 1" --predefine="ST
-M32F407xx SETA 1" --list=startup_stm32f407xx.lst startup_stm32f407xx.s
+Command Line: --debug --xref --cpu=Cortex-M4.fp --apcs=interwork --depend=stm32
+f4_discovery_temp\startup_stm32f407xx.d -ostm32f4_discovery_temp\startup_stm32f
+407xx.o -IC:\Keil\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include --predefine="__MICRO
+LIB SETA 1" --list=startup_stm32f407xx.lst startup_stm32f407xx.s
 
 
 
@@ -1959,4 +1956,4 @@ Symbol: __main
       At line 192 in file startup_stm32f407xx.s
 Comment: __main used once
 2 symbols
-445 symbols in table
+442 symbols in table
