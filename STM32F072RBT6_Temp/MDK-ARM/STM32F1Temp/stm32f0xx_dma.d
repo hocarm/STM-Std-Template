@@ -6,7 +6,7 @@ stm32f1temp\stm32f0xx_dma.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 stm32f1temp\stm32f0xx_dma.o: ..\Libraries\CMSIS\Include\core_cmInstr.h
 stm32f1temp\stm32f0xx_dma.o: ..\Libraries\CMSIS\Include\core_cmFunc.h
 stm32f1temp\stm32f0xx_dma.o: ..\Libraries\CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h
-stm32f1temp\stm32f0xx_dma.o: ..\..\STM32F0Temp\stm32f0xx_conf.h
+stm32f1temp\stm32f0xx_dma.o: ..\..\STM32F072RBT6_Temp\stm32f0xx_conf.h
 stm32f1temp\stm32f0xx_dma.o: ..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h
 stm32f1temp\stm32f0xx_dma.o: ..\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h
 stm32f1temp\stm32f0xx_dma.o: ..\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_can.h

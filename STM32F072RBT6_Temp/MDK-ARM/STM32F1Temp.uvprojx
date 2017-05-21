@@ -334,7 +334,7 @@
               <MiscControls>--C99</MiscControls>
               <Define>USE_STDPERIPH_DRIVER,STM32F072</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\STM32F0Temp;..\Libraries\CMSIS\Device\ST\STM32F0xx\Include;..\Libraries\STM32F0xx_StdPeriph_Driver\inc;..\Libraries\STM32F0xx_CPAL_Driver\inc;..\Libraries\CMSIS\Include</IncludePath>
+              <IncludePath>..\..\STM32F0Temp;..\Libraries\CMSIS\Device\ST\STM32F0xx\Include;..\Libraries\STM32F0xx_StdPeriph_Driver\inc;..\Libraries\STM32F0xx_CPAL_Driver\inc;..\Libraries\CMSIS\Include;..\..\STM32F072RBT6_Temp</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -388,9 +388,6 @@
               <FilePath>..\stm32f0xx_it.c</FilePath>
             </File>
           </Files>
-        </Group>
-        <Group>
-          <GroupName>::CMSIS</GroupName>
         </Group>
         <Group>
           <GroupName>Drivers/STM32F0xx_Std_Driver</GroupName>
@@ -531,6 +528,9 @@
               <FilePath>startup_stm32f072xb.s</FilePath>
             </File>
           </Files>
+        </Group>
+        <Group>
+          <GroupName>::CMSIS</GroupName>
         </Group>
       </Groups>
     </Target>
